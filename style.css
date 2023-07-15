@@ -1,0 +1,135 @@
+#title{
+    background-color: #A1C2F1;
+ 
+   
+}
+
+.images{
+    display: flex;
+    gap: 9vw;
+    padding-top: 50px;
+    padding-left: 80px;
+    
+    
+}
+.imgs{
+    border-radius: 5%;
+    width: 100%;
+    max-width: 39vw;
+    height: auto;
+   
+}
+
+.items{
+    display: flex;
+ 
+    gap: 14vw;
+}
+
+.heading{
+    padding-left: 120px;
+    padding-top: 40px;
+    color:#071952;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5vw;
+    
+    
+    
+}
+.intro{
+     padding-top: 6%;
+    font-size: 1.9vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+
+  .p2{
+    text-align: center;
+    font-size: 70px;
+    padding-top: 20px;
+    color: #071952;
+    text-decoration: underline;
+    padding-bottom: 40px;
+  }
+.box-1{
+    display: flex;
+    gap: 120px;
+    padding-left: 25px;
+}
+.p3{
+  padding-top: 10px;
+  font-size: 1.9vw;
+  font-family: sans-serif;
+}
+.box-2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 80px;
+    gap: 120px;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+.p4{
+    font-size: 1.9vw;
+    font-family: sans-serif;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+
+.box-3{
+    display: flex;
+    gap: 20vw;
+    padding-left: 55px;
+    padding-right: 20px;
+}
+.p5{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3vw;
+    color: #071952;
+
+}
+.box-4{
+  display: flex;
+  gap: 40px ;
+  padding-left: 50px;
+ 
+}
+
+.contacts{
+    padding-top: 40px;
+}
+
+.p6{
+    font-weight: 700;
+    
+}
+.p7{
+    font-family: 'Alex Brush', cursive;
+    font-size: 1.9vw;
+    text-decoration-line: underline;
+}
+.footer{
+    background-color: #A1C2F1;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.image{
+    width: 100%;
+    max-width: 39vw;
+    height: auto;
+    
+}
+@media(max-width: 700px){
+    .images{
+        padding-left: 20px;
+    }
+    .heading{
+        padding-left: 30px;
+    }
+}
+
